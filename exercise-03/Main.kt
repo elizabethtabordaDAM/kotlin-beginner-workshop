@@ -3,14 +3,17 @@ package exercise03
 
 
 fun main() {
-    val number = 7
+    val numero = 7
+    var suma=0
 
-    println("Tabla de multiplicar del $number")
+    println("Tabla de multiplicar del $numero")
 
     for (i in 1..10) {
-        val result = number * i
-        println("$number x $i = $result")
+        val resultado = numero * i
+        println("$numero x $i = $resultado")
+        suma += resultado
     }
+   println("suma de multiplicar es: $suma")
 }
 
 
