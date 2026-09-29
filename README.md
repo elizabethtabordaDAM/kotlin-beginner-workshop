@@ -1,7 +1,7 @@
 #  Kotlin Beginner Workshop
 
 **Estudiante:** Elizabeth Taborda
-**Curso:** Fundamentos de programación
+**Curso:** APLICACIONES MOVILES
 **Lenguaje:** Kotlin
 
 ---
