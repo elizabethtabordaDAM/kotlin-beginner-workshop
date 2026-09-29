@@ -28,10 +28,16 @@ fun isEven(numero: Int): Boolean {
 }
 
 fun main() {
-    val numero = 7
+    val numero = listOf(5, 1, 6, 7, 10, -3)
+    for (numero in numero) {
+        println("Numero: " + numero)
+        println("Es primo: " + isPrime(numero))
+        if (numero >= 0) {
+            println("Factorial: " + factorial(numero))
+        } else {
+            println("Factorial: no existe para negativos")
+        }
+        println("Es par: " + isEven(numero))
+    }
 
-    println("Numero: " + numero)
-    println("Es primo: " + isPrime(numero))
-    println("Factorial: " + factorial(numero))
-    println("Es par: " + isEven(numero))
 }
